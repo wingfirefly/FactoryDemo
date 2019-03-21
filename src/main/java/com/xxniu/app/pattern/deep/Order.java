@@ -35,7 +35,10 @@ public class Order implements Cloneable{
 	public IndInfo getIndInfo() {
 		return indInfo;
 	}
-
+	
+	/**
+	 * 深复制 引用对象都需要重新赋值
+	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	protected Order clone() throws CloneNotSupportedException {

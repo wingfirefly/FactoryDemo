@@ -14,6 +14,8 @@ public class DeepTest {
 		
 		try {
 			Order order1 = order.clone();
+			order.setOrderNo("222");
+			System.out.println(order1.getOrderNo());
 			System.out.println(order.getIndInfo()==order1.getIndInfo());
 			System.out.println(order.getStoreMap()==order1.getStoreMap());
 		} catch (CloneNotSupportedException e) {

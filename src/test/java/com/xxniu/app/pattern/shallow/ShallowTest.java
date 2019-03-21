@@ -22,9 +22,10 @@ public class ShallowTest {
 			
 			System.out.println(order.getIndInfo());
 			System.out.println(order1.getIndInfo());
-			indInfo.setCustomerId("123");
-			System.out.println(order.getIndInfo().getCustomerId());
-			System.out.println(order1.getIndInfo().getCustomerId());
+			order.setOrderNo("222");
+			System.out.println(order1.getOrderNo());
+			System.out.println(order.getIndInfo()==order1.getIndInfo());
+			System.out.println(order.getStoreMap()==order1.getStoreMap());
 		} catch (CloneNotSupportedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

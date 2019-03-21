@@ -8,6 +8,12 @@ import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
+/**
+ * CGLib动态代理
+ * 说明: TODO
+ * @author niuxinxing
+ * @version
+ */
 public class CGLibMeiPo implements MethodInterceptor{
 	
 	public Person getInstance(Class<?> clazz) {

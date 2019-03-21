@@ -3,6 +3,12 @@ package com.xxniu.app.singleton.register;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * spring ioc实现原理
+ * 说明: TODO
+ * @author niuxinxing
+ * @version
+ */
 public class ContainerSingleton {
     private static final Map<String, Object> ioc = new ConcurrentHashMap<String, Object>();
 

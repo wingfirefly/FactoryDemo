@@ -6,6 +6,12 @@ import java.lang.reflect.Proxy;
 
 import com.xxniu.app.proxy.staticproxy.Person;
 
+/**
+ * JDK动态代理
+ * 说明: TODO
+ * @author niuxinxing
+ * @version
+ */
 public class DynamicMeiPo implements InvocationHandler{
 	
 	private Person obj;

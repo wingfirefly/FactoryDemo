@@ -2,6 +2,12 @@ package com.xxniu.app.proxy.staticproxy.meipo;
 
 import com.xxniu.app.proxy.staticproxy.Person;
 
+/**
+ * 静态代理
+ * 说明: TODO
+ * @author niuxinxing
+ * @version
+ */
 public class MeiPo {
 	private Person obj;
 	
